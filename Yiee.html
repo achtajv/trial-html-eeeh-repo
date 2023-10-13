@@ -1,0 +1,96 @@
+<html>
+<head>
+<title></title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+h1 {text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+</style>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Yiee, thank you!");
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=1100
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=350
+            Bn.style.left=800
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=400
+            flag=4
+        }
+    else if(flag==4)
+        {
+            Bn.style.top=200
+            Bn.style.left=540
+            flag=5
+        }
+     else if(flag==5)
+        {
+            Bn.style.top=400
+            Bn.style.left=900
+            flag=6
+        }
+     else if(flag==6)
+        {
+            Bn.style.top=150
+            Bn.style.left=390
+            flag=7
+        }
+    else if(flag==7)
+        {
+            Bn.style.top=230
+            Bn.style.left=863
+            flag=8
+        }
+     else if(flag==8)
+        {
+            Bn.style.top=210
+            Bn.style.left=120
+            flag=1
+        }    
+}
+</script>
+
+</head>
+<body>
+<h1> Can we go on a date? </h1>
+<img src="https://c.tenor.com/sKk94yRSWUoAAAAC/cat.gif" height="200" class = "center">
+<div id="By" style="position:absolute; left:690px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES! " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:800px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NOO " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
